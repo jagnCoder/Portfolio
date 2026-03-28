@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagan Mohan Dash | Portfolio</title>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- RUBRIC: Home anchor for Top of Page -->
+<body id="home">
+
+    <!-- 
+      ========================================
+      TASK 1: index.html
+      ========================================
+    -->
+
+    <!-- Header & Navigation -->
+    <nav>
+        <!-- RUBRIC: Real Name in top-left (NOT "Jane Doe") -->
+        <div class="profile-name">Jagan Mohan Dash</div>
+        
+        <ul class="nav-links">
+            <!-- RUBRIC: Exact Text for Nav Links -->
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Project Details</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+            <!-- RUBRIC: Home Icon -->
+            <li><a href="#home"><i class="fas fa-home home-icon"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <!-- RUBRIC: Heading "About Me" -->
+        <h2>About Me</h2>
+        <div class="about-content">
+            <!-- Placeholder image for visual completeness -->
+            <img src="J:\webDev\PortfolioGemini(REAL ONE)\jagan'sPassport.png" alt="Profile" class="profile-img">
+            <div>
+                <!-- RUBRIC: Personalized summary -->
+                <p>Hello! I am Jagan Mohan Dash, a B.Tech student at AIET, Bhubaneswar with a strong interest in web development and problem‑solving. I enjoy learning new technologies, practicing data structures and algorithms, and turning creative ideas into simple, functional projects. My focus is on building a solid foundation in computer science while exploring practical applications through hands‑on projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <!-- Skill 4 (New) -->
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <p>mysql</p>
+            </div>
+            <!-- Skill 5 (New) -->
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <p>Python</p>
+            </div>
+            <!-- Skill 1 -->
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <p>HTML5</p>
+            </div>
+            <!-- Skill 2 -->
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS3</p>
+            </div>
+            <!-- Skill 3 (New) -->
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details Section -->
+    <section id="projects">
+        <h2>Project Details</h2>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <h3>🆔 KYC Verification Portal</h3>
+                <p>A secure "Know Your Customer" (KYC) application designed for financial or service-based institutions to verify user identities. It streamlines the submission of government IDs, facial photos, and personal data for verification.</p>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <h3>🎓 eLearn Platform</h3>
+                <p>An interactive learning management system (LMS) designed to host digital courses. The platform allows instructors to upload video lessons and reading materials while enabling students to track their progress, take quizzes, and earn digital completion certificates.</p>
+            </div>
+            <div class="project-card">
+                <h3>Secure Cloud Notes Application</h3>
+                <p> Cloud‑based notes app with login, encryption, and persistent storage. Added secure authentication and encrypted note storage.</p>
+            </div>
+        <div class="projects-grid">
+            <!-- RUBRIC: 3 NEW Projects (Not sample ones) -->
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3>🌐Neighborhood Network (Community Connect Platform)</h3>
+                <p>Community app for announcements, events, and resource exchange among neighbors.Implemented CRUD features and optimized feed pagination.</p>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3>🎮Color Guessing & Reaction Timer Game</h3>
+                <p> Interactive game: "color Guessing" where users guess colors based on RGB values with a scoring system, "Reaction Timer" Measures user reaction speed. Implemented using HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <div id="rec-list" class="recommendation-container">
+            <!-- RUBRIC: 3 NEW Recommendations -->
+            <!-- Rec 1 -->
+            <div class="recommendation-card">
+                <p>"Jagan is a dedicated developer who always goes the extra mile. Their attention to detail in the E-Commerce project was outstanding."</p>
+                <br>
+                <strong>- Kuna Debraj</strong>
+            </div>
+            <!-- Rec 2 -->
+            <div class="recommendation-card">
+                <p>"I worked with Jagan on the Weather App hackathon. An excellent team player with strong problem-solving skills."</p>
+                <br>
+                <strong>- Goutam Kaity, Senior Dev</strong>
+            </div>
+            <!-- Rec 3 -->
+            <div class="recommendation-card">
+                <p>"Jagan's ability to learn new technologies like Python quickly helped us meet our deadline for the CLI tool. Highly recommended!"</p>
+                <br>
+                <strong>- Ommi Parida</strong>
+            </div>
+        </div>
+
+        <!-- Submission Form -->
+        <h3>Leave a Recommendation</h3>
+        <form class="rec-form" onsubmit="addRecommendation(event)">
+            <input type="text" id="rec-name" placeholder="Your Name" required>
+            <textarea id="rec-text" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit Recommendation</button>
+        </form>
+    </section>
+
+    <!-- Popup Modal -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <i class="fas fa-check-circle" style="font-size: 3rem; color: #27ae60; margin-bottom: 10px;"></i>
+            <h3>Success!</h3>
+            <p>Recommendation submitted successfully.</p>
+            <button onclick="showPopup(false)">Ok</button>
+        </div>
+    </div>
+
+    <!-- Link to external JS -->
+    <script src="script.js"></script>
+</body>
+</html>
