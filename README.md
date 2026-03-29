@@ -66,7 +66,7 @@ Key Achievement: Enhanced logic for difficulty levels & Built accurate timing lo
 Added screenshots of flagship projects here.  
 Example:
 ```markdown
-![AgriSense screenshot](assets/PortfolioIndex.html.png)
+![Portfolio Image](assets/PortfolioIndex.html.png)
 
 💬 Recommendations
 “Jagan consistently delivers clean, maintainable code and helps teammates learn new tools.” — Kuna Debraj, College Peer
