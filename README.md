@@ -1,76 +1,75 @@
 # Jagan Mohan Dash — Portfolio
 
-**Live site:** [https://username.github.io/portfolio](https://jagncoder.github.io/Portfolio/)
+**Live site:** [https://jagncoder.github.io/Portfolio/](https://jagncoder.github.io/Portfolio/)
 
 ---
 
 ## 👨‍💻 About Me
-Hello! I am **Jagan Mohan Dash**, a passionate Full Stack Developer based in AIET, Bhubaneswar.  
-I specialize in building web applications and solving complex problems with clean, efficient code.
+Hello! I am **Jagan Mohan Dash**, a B.Tech student at AIET, Bhubaneswar with a strong interest in web development and problem‑solving. I enjoy learning new technologies, practicing data structures and algorithms, and turning creative ideas into simple, functional projects. My focus is on building a solid foundation in computer science while exploring practical applications through hands‑on projects.
 
 ---
 
 ## 🛠️ Skills
-- HTML5  
-- CSS3  
-- JavaScript  
-- MySQL  
-- SQLite
-- Python  
+- MySQL
+- Python
+- HTML5
+- CSS3
+- JavaScript
+- Version Control
+- Frontend Frameworks
+- Design & Accessibility
+- Problem Solving
+- Live Projects
+- Repo Hygiene  
 
 ---
 
-## 🚀 Major Engineering & Full‑Stack Projects
+## 🚀 Projects
 
-### KYC Verification Portal (Identity Management System)
-Role: Backend Developer  
-Tech: Python; Flask/Django; MySQL  
-Summary: Secure portal for uploading and verifying identity documents with admin approval workflows.  
-Key Achievement: Implemented validation pipeline reducing manual checks.
+### 💼 Portfolio
+**Link:** [https://jagncoder.github.io/Portfolio/](https://jagncoder.github.io/Portfolio/)  
+A responsive portfolio website built with modern web technologies, designed to showcase my work and skills in a professional way.
+**Features:**
+- Clean, modern UI with responsive design  
+- Sections for About, Skills, Projects, and Recommendations  
+- Screenshots and visuals of flagship projects
 
-### eLearn Platform (Learning Management System)
-Role: Full Stack Developer  
-Tech: HTML; CSS; JavaScript; Node.js; MySQL  
-Summary: Online platform for course management, assignments, and student progress tracking.  
-Key Achievement: Built role‑based dashboards for students and instructors.
 
-### Secure Cloud Notes Application (Data Persistence Project)
-Role: Full Stack Developer  
-Tech: Node.js; Express; MongoDB; JWT  
-Summary: Cloud‑based notes app with login, encryption, and persistent storage.  
-Key Achievement: Added secure authentication and encrypted note storage.
+### 🎮 Color Guessing & Reaction Timer Game
+**Link:** [https://color-guessing-game-by-jagn.netlify.app/](https://color-guessing-game-by-jagn.netlify.app/)  
+Interactive games built with HTML, CSS, JavaScript.  
+**Features:** RGB color guessing with scoring system, reaction timer with millisecond precision.
 
----
+### 🆔 KYC Verification Portal
+Secure “Know Your Customer” application for financial/service institutions to verify user identities.  
+**Features:** ID submission, facial photo upload, admin verification workflows.
 
-## 🛠️ Technical & Logic‑Based Projects
+### 🎓 eLearn Platform
+Interactive LMS for hosting digital courses.  
+**Features:** Video lessons, reading materials, quizzes, progress tracking, digital certificates.
 
-### Neighborhood Network (Community Connect Platform)
-Role: Full Stack Developer  
-Tech: HTML; CSS; JavaScript; Node.js; MySQL; Socket.io  
-Summary: Community app for announcements, events, and resource exchange among neighbors.  
-Key Achievement: Implemented CRUD features and optimized feed pagination.
+### Secure Cloud Notes Application
+Cloud‑based notes app with login, encryption, and persistent storage.  
+**Features:** Secure authentication, encrypted note storage.
 
----
-
-## 🎮 Web Games & Interactive Tools
-
-### Color Guessing Game & Reaction Timer
-Role: Developer  
-Tech: HTML; CSS; JavaScript  
-Summary: Interactive game where users guess colors based on RGB values & Measures user reaction speed with timed prompts.   
-Key Achievement: Enhanced logic for difficulty levels & Built accurate timing logic with millisecond precision.
+### 🌐 Neighborhood Network (Community Connect Platform)
+Community app for announcements, events, and resource exchange among neighbors.  
+**Features:** CRUD operations, optimized feed pagination.
 
 ---
 
-## 📸 Screenshots
-Added screenshots of flagship projects here.  
-Example:
-```markdown
-![Portfolio Image](assets/PortfolioIndex.html.png)
+## 💬 Recommendations
+"Jagan is a dedicated developer who always goes the extra mile. Their attention to detail in the E-Commerce project was outstanding."  
+— Kuna Debraj
 
-💬 Recommendations
-“Jagan consistently delivers clean, maintainable code and helps teammates learn new tools.” — Kuna Debraj, College Peer
+"I worked with Jagan on the Weather App hackathon. An excellent team player with strong problem-solving skills."  
+— Goutam Kaity, Senior Dev
 
-“Jagan approaches problems methodically and supports classmates during group projects.” — Goutam Kaity, College Peer
+"Jagan's ability to learn new technologies like Python quickly helped us meet our deadline for the CLI tool. Highly recommended!"  
+— Omm Parida
 
-“Always reliable and eager to learn; Jagan contributes thoughtful ideas in every team discussion.” — Ommi Parida, College Pee
+---
+
+## 📫 Contact
+- **GitHub:** [@jagncoder](https://github.com/jagncoder)  
+- **Email:** jagnsuvhamohan@gmail.com  
