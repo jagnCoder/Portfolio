@@ -73,3 +73,6 @@ Community app for announcements, events, and resource exchange among neighbors.
 ## 📫 Contact
 - **GitHub:** [@jagncoder](https://github.com/jagncoder)  
 - **Email:** jagnsuvhamohan@gmail.com  
+
+```
+![Portfolio Image](assets/PortfolioIndex.html.png)
