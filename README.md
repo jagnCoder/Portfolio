@@ -40,9 +40,9 @@ A responsive portfolio website built with modern web technologies, designed to s
 Interactive games built with HTML, CSS, JavaScript.  
 **Features:** RGB color guessing with scoring system, reaction timer with millisecond precision.
 
-### 🆔 KYC Verification Portal
-Secure “Know Your Customer” application for financial/service institutions to verify user identities.  
-**Features:** ID submission, facial photo upload, admin verification workflows.
+### 🆔 KYC Portal
+Secure “Know Your Customer” application for financial/service institutions to get and store user identities.  
+**Features:** ID submission, facial photo upload, other details submissions.
 
 ### 🎓 eLearn Platform
 Interactive LMS for hosting digital courses.  
